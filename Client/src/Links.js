@@ -68,7 +68,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: " Kochi,",
+        name: " Kochi,Kerala",
         link: "https://www.hoobank.com/suggestions/",
       },
       // {
