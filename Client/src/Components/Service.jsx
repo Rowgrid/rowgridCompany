@@ -68,12 +68,33 @@ function Service() {
           ))}
         </motion.div>
       </div>
-      <div className=' md:px-44 px-2 px pt-12 pb-6 flex flex-col justify-center items-center'>
-        <motion.h1 variants={paravarianth1} initial="hidden" whileInView="visible" className=' font-thin text-[12px] text-gray-300 '>WHAT WE DO</motion.h1>
-        <motion.h1 variants={paravarianth2} initial="hidden" whileInView="visible" className='text-center font-bold cl  md:text-3xl'> Fresh Ideas, Measurable <span>Business</span></motion.h1>
-        <motion.p variants={paravarianth2} initial="hidden" whileInView="visible" className='font-thin text-center text-[14px] leading-5 md:text-[15px] text-gray-400'>As a leading Web site Development Company.we Specialize in Creating Innovative and user-Friendly Digital Solutions that cater to the diverse needs of businesses and consummers alike</motion.p>
-        <p> </p>
-      </div>
+      <div className='md:px-44 px-2 pt-12 pb-6 flex flex-col justify-center items-center'>
+  <motion.h1 
+    variants={paravarianth1} 
+    initial="hidden" 
+    whileInView="visible" 
+    className='font-thin text-[12px] text-gray-300'
+  >
+    WHAT WE DO
+  </motion.h1>
+  <motion.h1 
+    variants={paravarianth2} 
+    initial="hidden" 
+    whileInView="visible" 
+    className='text-center font-bold cl text-xl sm:text-2xl md:text-3xl lg:text-4xl'
+  >
+    Fresh Ideas, Measurable <span>Business</span>
+  </motion.h1>
+  <motion.p 
+    variants={paravarianth2} 
+    initial="hidden" 
+    whileInView="visible" 
+    className='font-thin text-center text-[14px] sm:text-[15px] md:text-[16px] lg:text-[18px] leading-5 md:leading-6 text-gray-400'
+  >
+    As a leading Web site Development Company, we specialize in creating innovative and user-friendly digital solutions that cater to the diverse needs of businesses and consumers alike.
+  </motion.p>
+</div>
+
 
       <ScrollTrigger onEnter={() => SetCounterState(true)} onExit={() => SetCounterState(false)}>
         <div className='flex items-center justify-center p-2 gap-5 md:gap-[250px] mt-10 mb-10 text-gray-400 bg-primary'>
