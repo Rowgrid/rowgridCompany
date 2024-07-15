@@ -14,7 +14,7 @@ function Contact() {
         e.preventDefault();
         setIsLoading(true);
         await axios
-            .post(`http://localhost:2000/api/v2/contact-form`, {
+            .post(`https://rowgridcompanybackend.onrender.com`, {
                 Name,
                 email,
                 number,
