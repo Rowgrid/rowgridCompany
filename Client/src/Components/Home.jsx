@@ -104,7 +104,6 @@ const Home = () => {
         <About />
         <Service />
         <MarqueeTech />
-      
         <Features />
         <Project />
         <Contact />
