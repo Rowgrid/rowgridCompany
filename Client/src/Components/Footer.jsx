@@ -1,5 +1,6 @@
 import { footerLinks, socialMedia } from "../Links.js";
-import img from '..//assets/images/rowgrid2blc.png'
+import img from '..//assets/images/rowgrid2blc.png';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -37,7 +38,7 @@ const Footer = () => {
                   key={link.name}
                   className={`font-poppins hover:text-[#eab308] font-normal text-[16px] leading-[24px] cl hover:text-secondary cursor-pointer mb-4 last:mb-0`}
                 >
-                  <a className="no-underline hover:text-[#eab308] cl" href={link.lin}>{link.nam}</a>
+                  <Link className="no-underline hover:text-[#eab308] cl" to={link.lin}>{link.nam}</Link>
                   {link.name}
                 </li>
               ))}
