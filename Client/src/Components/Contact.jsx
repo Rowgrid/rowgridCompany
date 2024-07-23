@@ -14,7 +14,7 @@ function Contact() {
         e.preventDefault();
         setIsLoading(true);
         await axios
-            .post(`https://rowgridcompanybackend.onrender.com`, {
+            .post(`https://rowgrid-company-r7gz.vercel.app/`, {
                 Name,
                 email,
                 number,
